@@ -1,0 +1,121 @@
+/* バックグラウンドカラー */
+.bg {
+    background-color: aliceblue;
+    margin-top: 10px;
+}
+
+body {
+    margin: 20px;
+}
+/* ヘッダー */
+main {
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+header {
+    display: flex;
+    margin-bottom: -40px;
+    }
+
+header p {
+    font-size: 24px;
+    line-height: 20px;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.img {
+    width: 25%;
+    margin-left: 10px;
+}
+
+.img  p{
+    margin-top: 20px;
+}
+
+.top {
+    margin-left: 60px;
+}
+
+.top > p {
+ line-height: 10px;
+}
+/* 習熟度 */
+h1 {
+    border-left:5px solid #000000; /*線の設定*/
+    padding:2px 8px; /*余白の設定*/
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+.proficiency{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.proficiency div {
+    flex-basis: 45%;
+    margin: 10px 20px;
+}
+
+h2 {
+    border-left:5px solid #000000; /*線の設定*/
+    padding:2px 8px; /*余白の設定*/
+    font-size: 24px;
+}
+
+li {
+    font-size: 16px;
+    margin-right: 0; /* 最後の列のマージンを削除 */
+}
+
+/* スキル */
+.second {
+    max-width: 960px;
+    margin:  0 auto;
+}
+
+.second div {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skil-2 div {
+    flex-basis: 40%;
+    margin: 10px 30px;
+    display: block;
+}
+
+h3:before {
+    content: "■";
+}
+
+.skil-2 ul {
+    line-height: 10px;
+}
+
+.skil-2 li {
+    line-height: 20px;
+}
+
+/* 経歴 */
+.career p {
+    line-height: 10px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+/* 実績 */
+.achievement p {
+    font-size: 24px;
+    font-weight: bold;
+}
